@@ -1,0 +1,154 @@
+.expense {
+    background-image: url('../../assets/expenseback.jpg');
+    color: #111;
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.dark {
+    background: url('../../assets/dark.jpg');
+    color: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.expense-container {
+    width: 95vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.premiumbtn {
+    display: flex;
+    margin: auto;
+
+}
+
+.premiumbtn button {
+    color: darkred;
+    cursor: pointer;
+}
+
+.expense-section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.expense-form {
+    width: fit-content;
+    padding: 3%;
+    border: 6px solid #fff;
+    margin: auto;
+}
+
+.expense-form input {
+    background: transparent;
+    border: 2px solid red;
+    color: #10b6dc;
+}
+
+table {
+    text-align: center;
+    width: 80vw;
+    margin: auto;
+    padding: auto;
+    border: 2px solid #fff;
+}
+
+tr {
+    padding: 5%;
+}
+
+th {
+    color: darkred;
+}
+
+th,
+td {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 40px;
+    border: 2px solid darkred;
+}
+
+td button:hover {
+    color: #fff;
+    background: darkred;
+    cursor: pointer;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.pagination {
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.selectpag {
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: auto;
+}
+
+.outer {
+    position: absolute;
+    z-index: 999;
+    height: 85vh;
+    width: 80vw;
+    margin: auto;
+    margin-top: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
+
+.hide-outer {
+    display: none;
+}
+
+.leaderboard {
+    position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 99;
+    background: #fffffff3;
+    color: #111;
+    border-radius: 0px 25px;
+    border: none;
+    outline: none;
+}
+
+.leaderboard-table {
+    width: 50vw;
+    text-align: center;
+    border: none;
+}
+
+.leaderboard-table th {
+    border: none;
+}
+
+.leaderboard-table td {
+    border: none;
+}
